@@ -16,7 +16,7 @@ let availableQuesions = [];
 
 let questions = [
   {
-    questionimage: "<img src=\"https://placehold.co/600x400\" alt = \"Sorting hat\" width=\"30%\" length = \"30%\" object-position=\"center\">", 
+    questionimage: "<img src=\"https://fultonfishmarket.com/cdn/shop/articles/20220223181102-blinis-with-black-caviar-recipe_3_800x800.jpg?v=1686860198\" alt = \"Sorting hat\" width=\"30%\" length = \"30%\" object-position=\"center\">", 
     question: "Which animal does caviar come from?",
     choice1: "Octopus",
     choice2: "Chickens",
@@ -27,7 +27,7 @@ let questions = [
     incorrectanswer: "Incorrect, caviar originates from fish"
   },
   {
-    questionimage: "<img src=\"https://placehold.co/600x300\" width=\"30%\" length = \"30%\" object-position=\"center\">",
+    questionimage: "<img src=\"https://agrimatco.ae/wp-content/uploads/2019/12/p3.jpg\" width=\"30%\" length = \"30%\" object-position=\"center\">",
     question:"What is a tomato?",
     choice1: "Mineral",
     choice2: "Legume",
@@ -81,9 +81,9 @@ getNewQuestion = () => {
   correctBox.innerText = currentQuestion.correctanswer
   incorrectBox.innerText = currentQuestion.incorrectanswer
   innerImage.innerHTML = currentQuestion.questionimage;
-  document.getElementById('nextQuestion').style.visibility='hidden';
-  document.getElementById('correctBox').style.visibility='hidden';
-  document.getElementById('incorrectBox').style.visibility='hidden';
+  document.getElementById('nextQuestion').style.display='none';
+  document.getElementById('correctBox').style.display='none';
+  document.getElementById('incorrectBox').style.display='none';
 
 
   choices.forEach(choice => {
@@ -108,14 +108,14 @@ choices.forEach(choice => {
 
     if (classToApply === "correct") {
       incrementScore(CORRECT_BONUS);
-      document.getElementById('correctBox').style.visibility='visible';
+      document.getElementById('correctBox').style.display='block';
     } else{
-      document.getElementById('incorrectBox').style.visibility='visible';
+      document.getElementById('incorrectBox').style.display='block';
     }
 
 
     selectedChoice.parentElement.classList.add(classToApply);
-    document.getElementById('nextQuestion').style.visibility='visible';
+    document.getElementById('nextQuestion').style.display='block';
     
 
     nextQuestion.addEventListener("click", e => {

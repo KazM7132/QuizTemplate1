@@ -38,7 +38,8 @@
     text-align: center;
     margin:auto;
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: repeat(2, minmax(150px,1fr));
+    grid-gap: 5px;
     padding: 10px;
     column-gap: 7px;
     justify-items: center;
@@ -47,14 +48,16 @@
 
   #question{
     text-align: center;
+    margin-top: 3%;
   }
 
 
   /* HUD */
   
   #hud {
-    display: flex;
+    display: absolute;
     justify-content: space-between;
+    margin-bottom: 2%;
   }
   
   .hud-prefix {
@@ -68,11 +71,11 @@
   
   #progressBar {
     display: block;
-    width: 76rem;
+    width: 40rem;
     height: 4rem;
     border: 0.3rem solid #56a5eb;
     margin: auto;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     text-align: center;
   }
   
@@ -81,4 +84,60 @@
     height: 3.4rem;
     background-color: #56a5eb;
     width: 0%;
+  }
+
+  #progressText{
+    margin-top: 1rem;
+  }
+
+
+  /* Question button and images*/
+
+  #innerImage{
+    text-align: center;
+  }
+
+  .Next{
+    text-align: center;
+  }
+
+  #correctBox{
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #incorrectBox{
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+
+
+  #nextQuestion{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    margin: auto;
+    border: 0.1rem solid #56a5eb;
+    text-decoration: none;
+    color: #56a5eb;
+    background-color: white;
+  }
+  
+  #nextQuestion:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  #nextQuestion[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
   }
