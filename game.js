@@ -38,7 +38,7 @@ let questions = [
     incorrectanswer: "Incorrect, tomato is a fruit due to possessing seeds"
   },
   {
-    questionimage: "<img src=\"https://placehold.co/600x200\" alt = \"Sorting hat\" width=\"30%\" length = \"30%\" object-position=\"center\">",
+    questionimage: "<img src=\"https://feelgoodfoodie.net/wp-content/uploads/2016/12/how-to-poach-an-egg-10.jpg\" alt = \"Sorting hat\" width=\"30%\" length = \"30%\" object-position=\"center\">",
     question: "What type of egg is this?",
     choice1: "Poached",
     choice2: "Scrambled",
