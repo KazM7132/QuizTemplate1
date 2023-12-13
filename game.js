@@ -47,12 +47,57 @@ let questions = [
     answer: 1,
     correctanswer: "Correct",
     incorrectanswer: "Incorrect, poached eggs are cooked at a low temperature to ensure a runny yolk with a hardened crust"
-  }
+  },
+  {
+    questionimage: "<img src=\"https://www.aspicyperspective.com/wp-content/uploads/2021/11/Shoestring-Fries-Julienne-Cut-20-500x500.jpg\" width=\"30%\" length = \"30%\" object-position=\"center\">",
+    question:"Which cut is this?",
+    choice1: "Batonnet",
+    choice2: "Diced",
+    choice3: "Rondelle",
+    choice4: "Julienne",
+    answer: 4,
+    correctanswer: "Correct",
+    incorrectanswer: "Incorrect, Juienne is a technique where food is cut into long, thin strips, similar to matchsticks"
+  },
+  {
+    questionimage: "<img src=\"https://www.justonecookbook.com/wp-content/uploads/2022/03/Fresh-Kimchi-6968-I-500x500.jpg\" width=\"30%\" length = \"30%\" object-position=\"center\">",
+    question:"What is this dish called?",
+    choice1: "Pad Thai",
+    choice2: "Tomato Sauce",
+    choice3: "Kimchi",
+    choice4: "Curry",
+    answer: 3,
+    correctanswer: "Correct",
+    incorrectanswer: "Incorrect, Kimchi is a staple in Korean cuisine and is made from salted and fermented vegetables"
+  },
+  {
+    questionimage: "<img src=\"https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/24/11/39/fx6DgBKrTqqH8ZA92OiN_blue-ribbon-dill-pickles_075.jpg\" width=\"30%\" length = \"30%\" object-position=\"center\">",
+    question:"How long does it take to pickle cucumbers?",
+    choice1: "3 Days",
+    choice2: "3 Weeks",
+    choice3: "1 Week",
+    choice4: "1 Day",
+    answer: 2,
+    correctanswer: "Correct",
+    incorrectanswer: "Incorrect, regular dill pickles and sauerkraut are fermented and cured for about 3 weeks"
+  },
+  {
+    questionimage: "<img src=\"https://static01.nyt.com/images/2022/10/04/multimedia/06ASKWELL-MATCHA1/06ASKWELL-MATCHA1-articleLarge.jpg\" width=\"30%\" length = \"30%\" object-position=\"center\">",
+    question:"What is this",
+    choice1: "Celery root",
+    choice2: "Curry",
+    choice3: "Oolong",
+    choice4: "Matcha",
+    answer: 4,
+    correctanswer: "Correct",
+    incorrectanswer: "Incorrect, Matcha is a type of green tea ground into powdered form"
+  },
+  
 ];
 
 //CONSTANTS
 const CORRECT_BONUS = 1;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 7;
 
 startGame = () => {
   questionCounter = 0;
