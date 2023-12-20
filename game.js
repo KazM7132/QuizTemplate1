@@ -16,7 +16,7 @@ let availableQuesions = [];
 
 let questions = [
   {
-    questionimage: "<img src=\"https://fultonfishmarket.com/cdn/shop/articles/20220223181102-blinis-with-black-caviar-recipe_3_800x800.jpg?v=1686860198\" alt = \"Sorting hat\" width=\"30%\" length = \"30%\" object-position=\"center\">", 
+    questionimage: "<img src=\"https://fultonfishmarket.com/cdn/shop/articles/20220223181102-blinis-with-black-caviar-recipe_3_800x800.jpg?v=1686860198\" alt = \"Sorting hat\" width=\"40%\" height = \"auto\" object-position=\"center\">", 
     question: "Which animal does caviar come from?",
     choice1: "Octopus",
     choice2: "Chickens",
@@ -71,7 +71,7 @@ let questions = [
     incorrectanswer: "Incorrect, Kimchi is a staple in Korean cuisine and is made from salted and fermented vegetables"
   },
   {
-    questionimage: "<img src=\"https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/24/11/39/fx6DgBKrTqqH8ZA92OiN_blue-ribbon-dill-pickles_075.jpg\" width=\"30%\" length = \"30%\" object-position=\"center\">",
+    questionimage: "<img src=\"https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/24/11/39/fx6DgBKrTqqH8ZA92OiN_blue-ribbon-dill-pickles_075.jpg\" width=\"50%\" length = \"30%\" object-position=\"center\">",
     question:"How long does it take to pickle cucumbers?",
     choice1: "3 Days",
     choice2: "3 Weeks",
@@ -115,7 +115,7 @@ getNewQuestion = () => {
     return window.location.assign("end.html");
   }
   questionCounter++;
-  progressText.innerText = `${(questionCounter / MAX_QUESTIONS).toFixed(2) * 100}%`;
+  progressText.innerText = `${((questionCounter / MAX_QUESTIONS) * 100).toFixed(0)}%`;
   //Update the progress bar
   progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 

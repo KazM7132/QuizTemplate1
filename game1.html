@@ -11,8 +11,17 @@
   <body>
     <div class="container">
       <div id="game" class="justify-center flex-column">
+        
         <div id="innerImage"></div>
+        <div class="Next">
+          <div id="correctBox"></div>
+          <div id="incorrectBox"></div>
+          <span id="overlay_text" style="position: relative; text-align: center; white-space: nowrap; top: -100px; left:280px; z-index: 7;">
+          <button style = "text-align:center;" id="nextQuestion" onclick="getNewQuestion()">Next question</button>
+          </span>
+        </div>
         <h2 id="question">What is the answer to this question?</h2>
+        
         <div class="question-grid">
           <div class="choice-container">
               <p class="choice-text" data-number="1">Choice 1</p>
@@ -26,11 +35,6 @@
             <div class="choice-container">
               <p class="choice-text" data-number="4">Choice 4</p>
             </div>
-        </div>
-        <div class="Next">
-          <div id="correctBox"></div>
-          <div id="incorrectBox"></div>
-          <button style = "text-align:center;" id="nextQuestion" onclick="getNewQuestion()">Next question</button>
         </div>
         
         <div id="hud">
