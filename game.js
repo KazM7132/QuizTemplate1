@@ -14,6 +14,8 @@ let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
 
+/* QUESTION CONTAINER*/
+
 let questions = [
   {
     questionimage: "<img src=\"https://fultonfishmarket.com/cdn/shop/articles/20220223181102-blinis-with-black-caviar-recipe_3_800x800.jpg?v=1686860198\" alt = \"Sorting hat\" width=\"40%\" height = \"auto\" object-position=\"center\">", 
@@ -111,6 +113,7 @@ document.getElementById('score').style.display='none';
 getNewQuestion = () => {
   if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
+    localStorage.setItem("numericScoreTest", score);
     //go to the end page
     return window.location.assign("end.html");
   }
@@ -121,6 +124,7 @@ getNewQuestion = () => {
 
   const questionIndex = Math.floor(Math.random() * availableQuesions.length);
   currentQuestion = availableQuesions[questionIndex];
+  
   
   question.innerText = currentQuestion.question;
   correctBox.innerText = currentQuestion.correctanswer

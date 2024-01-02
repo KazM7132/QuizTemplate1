@@ -8,6 +8,7 @@ body{
     line-height: 1.42857;
 	overflow-x: auto;
 	max-width: 100%;
+    text-align: center;
 }
 
 h1{
@@ -77,3 +78,12 @@ h1{
     font-weight: bold;
     font-size: 30px;
 }
+
+/*.bottombox{
+    width: 50vw;
+    height: 30vh;
+    margin: auto;
+    background-color: lightgray;
+    text-align: center;
+    display: flex;
+}*/
