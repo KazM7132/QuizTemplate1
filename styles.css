@@ -1,6 +1,6 @@
 @media screen and (max-width: 959px){
     body .entry-content .alignfull {
-        margin-left: 0 !important;
+        margin-left: auto !important;
     }
     }
 
@@ -84,12 +84,3 @@ h1{
     font-weight: bold;
     font-size: 30px;
 }
-
-/*.bottombox{
-    width: 50vw;
-    height: 30vh;
-    margin: auto;
-    background-color: lightgray;
-    text-align: center;
-    display: flex;
-}*/
