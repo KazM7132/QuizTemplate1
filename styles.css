@@ -1,3 +1,9 @@
+@media screen and (max-width: 959px){
+    body .entry-content .alignfull {
+        margin-left: 0 !important;
+    }
+    }
+
 body{
     height: 100% !important;
 	margin: 0;
@@ -18,7 +24,7 @@ h1{
     margin-right: 3rem;
     margin-bottom: 3rem;
     margin-top: 27rem;
-    text-align:left;
+    text-align:center;
 
 }
 
@@ -42,7 +48,7 @@ h1{
 
 .introbox{
     position: center;
-    text-align:left;
+    text-align:center;
     width: fit-content;
     margin:auto;
     max-width: 55%;
@@ -51,7 +57,7 @@ h1{
 
 .bottombutton{
     position: center;
-    text-align:left;
+    text-align:center;
     width: fit-content;
     margin:auto;
     max-width: 50%;
