@@ -43,6 +43,7 @@
     grid-gap: 5px;
     padding: 10px;
     column-gap: 7px;
+    justify-content: center;
     justify-items: center;
     align-items: center;
     height:50%;
@@ -75,7 +76,7 @@
   
   #progressBar {
     display: block;
-    width: 40rem;
+    width: 70%;
     height: 4rem;
     border: 0.3rem solid #56a5eb;
     margin: auto;
@@ -121,9 +122,14 @@
     margin-bottom: 0.5rem;
   }
 
+  .nextBox{
+    text-align: center;
+    margin:5%;
+  }
+
   #nextQuestion{
-    position: absolute;
-    display: flex;
+    position: flex;
+    display: absolute;
     text-align: center;
     align-items: center;
     font-size: 1.8rem;

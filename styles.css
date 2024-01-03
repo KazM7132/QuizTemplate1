@@ -1,7 +1,12 @@
-@media screen and (min-width: 640px){
+@media screen and (max-width : 640px){
     body .entry-content .alignfull {
         margin-left: auto !important;
+        margin-right: auto !important;
     }
+    .imagebox #overlay_text{
+        overflow-wrap: auto;
+        display: none;
+        }
     }
 
 body{
@@ -18,12 +23,10 @@ body{
 }
 
 h1{
+    padding-top: 10%;
     font-size: 2.4rem;
     color: #333;
-    margin-left: 6rem;
-    margin-right: 3rem;
-    margin-bottom: 3rem;
-    margin-top: 8rem;
+    margin: auto;
     text-align:center;
 
 }
@@ -34,7 +37,6 @@ h1{
     display: block;
     justify-content: center;
     align-items: center;
-    max-width: 80rem;
     margin: 0 auto;
     padding: 1.5rem;
 }
@@ -45,14 +47,22 @@ h1{
     text-align: center;
 }
 
+.imagebox #overlay_text{
+    position: relative; 
+    white-space: nowrap; 
+    top: 370px; 
+    left:-160px; 
+    z-index: 7;
+}
+
 
 .introbox{
     position: center;
     text-align:center;
     width: fit-content;
     margin:auto;
-    max-width: 55%;
-    padding: 20px;
+    max-width: 65%;
+    padding: 10px;
 }
 
 .bottombutton{
