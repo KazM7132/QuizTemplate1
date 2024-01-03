@@ -23,7 +23,7 @@ h1{
     margin-left: 6rem;
     margin-right: 3rem;
     margin-bottom: 3rem;
-    margin-top: 27rem;
+    margin-top: 8rem;
     text-align:center;
 
 }
@@ -31,7 +31,7 @@ h1{
 .container {
     width: 100vw;
     height: 120vh;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     max-width: 80rem;
@@ -40,7 +40,7 @@ h1{
 }
 
 .imagebox{
-    position:relative;
+    position:center;
     object-position: center;
     text-align: center;
 }
