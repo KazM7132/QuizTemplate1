@@ -1,4 +1,4 @@
-@media screen and (max-width: 959px){
+@media screen and (min-width: 640px){
     body .entry-content .alignfull {
         margin-left: auto !important;
     }
