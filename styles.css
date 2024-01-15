@@ -9,6 +9,11 @@
         }
     }
 
+@viewport{
+    width: device-width;
+    zoom: 1.0;
+}
+
 body{
     height: 100% !important;
 	margin: 0;
@@ -45,6 +50,11 @@ h1{
     position:center;
     object-position: center;
     text-align: center;
+}
+
+.responsive{
+    max-width: 100%;
+    height: auto;
 }
 
 .imagebox #overlay_text{
