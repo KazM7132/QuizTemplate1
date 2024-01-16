@@ -71,8 +71,9 @@ h1{
     text-align:center;
     width: fit-content;
     margin:auto;
-    max-width: 65%;
+    max-width: 40%;
     padding: 10px;
+    font-size: large;
 }
 
 .bottombutton{
