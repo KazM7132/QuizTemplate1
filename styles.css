@@ -1,8 +1,8 @@
 @media screen and (max-width : 640px){
-    body .entry-content .alignfull {
+   /* body .entry-content .alignfull {
         margin-left: auto !important;
         margin-right: auto !important;
-    }
+    }*/
     .imagebox #overlay_text{
         overflow-wrap: auto;
         display: none;
