@@ -2,7 +2,7 @@
     display: flex;
     margin-bottom: 0.5rem;
     width: 100%;
-    height:auto;
+    height:fit-content;
     max-height:5rem;
     font-size: 1.8rem;
     border: 0.1rem solid rgb(86, 165, 235, 0.25);
@@ -50,7 +50,7 @@
     height:auto;
     width:70%;
     max-width: 100%;
-    max-height: 10%;
+    max-height: fit-content;
   }
 
   #question{
