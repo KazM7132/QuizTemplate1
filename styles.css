@@ -22,13 +22,12 @@ body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 1.42857;
-	overflow-x: hidden;
+	overflow-x: auto;
 	max-width: 100%;
     text-align: center;
 }
 
 h1{
-    width: 70%;
     padding-top: 10%;
     font-size: 2.4rem;
     color: #333;
@@ -69,29 +68,6 @@ h1{
     z-index: 7;
 }
 
-#adholder{
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-.adright, .adleft{
-    width: 10%;
-    height: 130vh;
-    position: relative;
-    margin-top: 5%;
-    margin-left:auto;
-    right:0;
-    float: left;
-    overflow: hidden;
-    background: aquamarine;
-    display: inline;
-}
-
-.adright{float:right;}
 
 .introbox{
     position: center;
@@ -131,17 +107,4 @@ h1{
     text-decoration: none;
     font-weight: bold;
     font-size: 30px;
-}
-
-.bottombox{
-    position: center;
-    text-align:center;
-    width: 50%;
-    height: 10%;
-    max-height: 10px;
-    border: 10px;
-    margin:auto;
-    padding: 20px;
-    padding-bottom: 10px;
-    background-color: aquamarine;
 }
