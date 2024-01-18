@@ -50,6 +50,31 @@ h1{
     padding: 1.5rem;
 }
 
+.sidebox1{
+    height: 100%;
+    width: 10%;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: aquamarine;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidebox2{
+    height: 100%;
+    width: 10%;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    right:0;
+    background-color: aquamarine;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+
 .imagebox{
     position:center;
     object-position: center;
@@ -69,30 +94,6 @@ h1{
     z-index: 7;
 }
 
-#adholder{
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-.adright, .adleft{
-    width: 10%;
-    height: 80vh;
-    justify-content: bottom;
-    position: relative;
-    margin-top: 5%;
-    margin-left:auto;
-    right:0;
-    float: left;
-    overflow: hidden;
-    background: aquamarine;
-    display: inline;
-}
-
-.adright{float:right;}
 
 .introbox{
     position: center;
