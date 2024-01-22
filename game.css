@@ -33,7 +33,7 @@
 
 .bottombox{
   position: absolute;
-  bottom: -50%;
+  bottom: -30%;
   text-align:center;
   width: 50%;
   height: 100px;
@@ -259,6 +259,20 @@
     overflow-x: hidden;
     padding-top: 20px;
     display: none;
+  }
+
+  .bottombox{
+    position: absolute;
+    bottom: -30%;
+    text-align:center;
+    width: 50%;
+    height: 100px;
+    max-height: 250px;
+    border: 10px;
+    margin:auto;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: aquamarine;
   }
 
 }
