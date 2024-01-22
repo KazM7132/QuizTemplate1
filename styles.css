@@ -2,7 +2,7 @@
     width: device-width;
     zoom: 1.0;
 }
-@media screen and (max-width : 730px){
+@media screen and (max-width : 753px){
     .imagebox #overlay_text{
         position: relative;
         display: none;
@@ -31,7 +31,7 @@
      
 }
 
-@media screen and (max-width : 640px){
+@media screen and (max-width : 753px){
    /* body .entry-content .alignfull {
         margin-left: auto !important;
         margin-right: auto !important;
@@ -50,7 +50,7 @@
     }
     
     h1{
-        width: 70%;
+        width: 85%;
         padding-top: 10%;
         font-size: 2.4rem;
         color: #333;
@@ -71,9 +71,36 @@
         margin: 0 auto;
         padding: 1.5rem;
     }
-    .topbox{
+    /*.topbox{
         display: none;
+    }*/
+
+    .topbox{
+        position: center;
+        text-align:center;
+        width: 50%;
+        height: 100px;
+        max-height: 250px;
+        border: 10px;
+        margin:auto;
+        padding: 20px;
+        padding-bottom: 10px;
+        background-color: aquamarine;
     }
+
+    .middlead{
+        position: center;
+        text-align:center;
+        width: 50%;
+        height: 100px;
+        max-height: 250px;
+        border: 10px;
+        margin:auto;
+        padding: 20px;
+        padding-bottom: 10px;
+        background-color: aquamarine;
+    }
+
     
     .imagebox{
         position:center;
@@ -130,8 +157,8 @@
         position: center;
         text-align:center;
         width: 50%;
-        height: 10%;
-        max-height: 10px;
+        height: 100px;
+        max-height: 250px;
         border: 10px;
         margin:auto;
         padding: 20px;
@@ -193,7 +220,7 @@
         }
     }
 
-    @media screen and (min-width : 640px){    
+    @media screen and (min-width : 753px){    
 body{
     height: 100% !important;
 	margin: 0;
@@ -231,17 +258,17 @@ h1{
 }
 
 .topbox{
-    position: center;
-    text-align:center;
-    width: 50%;
-    height: 10%;
-    max-height: 10px;
-    border: 10px;
-    margin:auto;
-    padding: 20px;
-    padding-bottom: 10px;
-    background-color: aquamarine;
-}
+        position: center;
+        text-align:center;
+        width: 50%;
+        height: 100px;
+        max-height: 250px;
+        border: 10px;
+        margin:auto;
+        padding: 20px;
+        padding-bottom: 10px;
+        background-color: aquamarine;
+    }
 
 .imagebox{
     position:center;
@@ -362,17 +389,16 @@ h1{
     display: none;
 }
 
-#middlead{
+.middlead{
     position: center;
     text-align:center;
     width: 50%;
-    height: 10%;
-    max-height: 10px;
+    height: 100px;
+    max-height: 250px;
     border: 10px;
     margin:auto;
     padding: 20px;
     padding-bottom: 10px;
     background-color: aquamarine;
-    display: none;
 }
 }
