@@ -87,9 +87,11 @@
     grid-gap: 2px;
     padding: 2px;
     column-gap: 0;
+    /*look at changing this around in order to center the grid*/
     justify-content: center;
     justify-items: center;
     align-items: center;
+    /*utilise align-content here instead*/
     height:auto;
     width:70%;
     max-width: 100%;
