@@ -1,5 +1,5 @@
 :root {
-    background-color: #ecf5ff;
+    background-color: #ffffff;
     font-size: 62.5%;
   }
   
@@ -40,6 +40,22 @@
     font-size: 2.8rem;
     font-weight: 500;
   }
+
+  .bottombox1{
+    position: absolute;
+    bottom: -30%;
+    text-align:center;
+    width: 50%;
+    max-width: 500px;
+    height: 100px;
+    max-height: 250px;
+    border: 10px;
+    margin-bottom:20px;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: aquamarine;
+  }
+
   
   /* UTILITIES */
   
@@ -57,6 +73,7 @@
   .container > * {
     width: 100%;
   }
+  
   
   .flex-column {
     display: flex;
@@ -79,6 +96,7 @@
   .hidden {
     display: none;
   }
+
   
   /* BUTTONS */
   .btn {
