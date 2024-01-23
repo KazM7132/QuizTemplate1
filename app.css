@@ -41,6 +41,21 @@
     font-weight: 500;
   }
 
+  .bottombox1{
+    position: absolute;
+    bottom: -30%;
+    text-align:center;
+    width: 50%;
+    max-width: 500px;
+    height: 100px;
+    max-height: 250px;
+    border: 10px;
+    margin-bottom:20px;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: aquamarine;
+  }
+
   
   /* UTILITIES */
   
