@@ -43,16 +43,13 @@
         margin: 0 auto;
         padding: 1.5rem;
     }
-    /*.topbox{
-        display: none;
-    }*/
 
     .topbox{
         position: center;
         text-align:center;
-        width: 50%;
-        height: 100px;
-        max-height: 250px;
+        width: 468px;
+        height: 60px;
+        max-height: 60px;
         border: 10px;
         margin:auto;
         padding: 20px;
@@ -60,7 +57,7 @@
         background-color: aquamarine;
     }
 
-    .middlead{
+    /*.middlead{
         position: center;
         text-align:center;
         width: 468px;
@@ -71,7 +68,7 @@
         padding: 20px;
         padding-bottom: 10px;
         background-color: aquamarine;
-    }
+    }*/
 
     .middlebox{
         position: center;
@@ -182,7 +179,7 @@
             display: none;
           }
         
-        .middlebox{
+        /*.middlebox{
             position: center;
             text-align:center;
             width: fit-content;
@@ -202,7 +199,7 @@
             font-size: 30px;
             margin-bottom: 10%;
             display: visible !important;
-        }
+        }*/
     }
 
 

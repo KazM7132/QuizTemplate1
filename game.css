@@ -256,6 +256,7 @@
 
 @media screen and (max-width : 980px){
   .topbox{
+    display: block;
     position: relative;
     text-align:center;
     width: 463px;
