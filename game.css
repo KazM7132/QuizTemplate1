@@ -3,6 +3,26 @@
   zoom: 1.0;
 }
 
+/*body{
+  height: 100% !important;
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.42857;
+  overflow-x: hidden;
+  max-width: 100%;
+  text-align: center;
+}
+
+.topwrapper{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}*/
+
 .topbox{
   display: block;
   position: relative;
@@ -11,7 +31,7 @@
   height: 90px;
   max-height: 100px;
   border: 10px;
-  margin-top: 20%;
+  margin-top: 30%;
   padding: 20px;
   padding-bottom: 10px;
   background-color: aquamarine;
@@ -256,6 +276,17 @@
 
 
 @media screen and (max-width : 980px){
+  
+  /*.topwrapper{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+  }*/
+  
+  
+  
+  
   .topbox{
     display: block;
     position: relative;
