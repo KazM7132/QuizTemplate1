@@ -44,13 +44,13 @@
         padding: 1.5rem;
     }
 
-    /*.topwrapper{
-        position: relative;
+    .topwrapper{
+        position: absolute;
+        text-align: center;
         width: 100%;
-        height: 100px;
+        height: 50px;
         overflow: hidden;
-    }*/
-
+    }
 
     .topbox{
         position: center;
@@ -258,12 +258,12 @@ h1{
     padding: 1.5rem;
 }
 
-/*.topwrapper{
-    position: relative;
+.topwrapper{
+    position: absolute;
     width: 100%;
-    height: 100px;
+    height: 50px;
     overflow: hidden;
-}*/
+}
 
 .topbox{
         position: center;
