@@ -44,6 +44,14 @@
         padding: 1.5rem;
     }
 
+    .topwrapper{
+        position: relative;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+
     .topbox{
         position: center;
         text-align:center;
@@ -133,6 +141,13 @@
         text-decoration: none;
         font-weight: bold;
         font-size: 30px;
+    }
+
+    .bottomwrapper{
+        position: relative;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
     }
     
     .bottombox{
@@ -243,6 +258,13 @@ h1{
     padding: 1.5rem;
 }
 
+.topwrapper{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
 .topbox{
         position: center;
         text-align:center;
@@ -305,6 +327,13 @@ h1{
     text-decoration: none;
     font-weight: bold;
     font-size: 30px;
+}
+
+.bottomwrapper{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 }
 
 .bottombox{
