@@ -183,10 +183,12 @@
 
   .Next{
     text-align: center;
+    display: grid;
   }
 
   #correctBox{
     font-size: 1.8rem;
+    padding: 10px;
     border: 3px;
     border-style: solid;
     position: inherit;
@@ -194,16 +196,25 @@
     height:fit-content;
     margin: auto;
     align-items: center;
+    background-color: paleturquoise;
   }
 
   #incorrectBox{
     font-size: 1.8rem;
+    padding: 10px;
     border-style: solid;
     position: inherit;
     width: fit-content;
     height:fit-content;
     margin: auto;
     align-items: center;
+    z-index:10;
+    background-color: paleturquoise;
+  }
+
+  #correctBox, #incorrectBox{
+    grid-area:1/1;
+
   }
 
   .nextBox{

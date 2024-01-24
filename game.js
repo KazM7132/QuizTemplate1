@@ -130,9 +130,9 @@ getNewQuestion = () => {
   correctBox.innerText = currentQuestion.correctanswer
   incorrectBox.innerText = currentQuestion.incorrectanswer
   innerImage.innerHTML = currentQuestion.questionimage;
-  document.getElementById('nextQuestion').style.display='none';
-  document.getElementById('correctBox').style.display='none';
-  document.getElementById('incorrectBox').style.display='none';
+  document.getElementById('nextQuestion').style.visibility='hidden';
+  document.getElementById('correctBox').style.visibility='hidden';
+  document.getElementById('incorrectBox').style.visibility='hidden';
 
 
   choices.forEach(choice => {
@@ -157,14 +157,14 @@ choices.forEach(choice => {
 
     if (classToApply === "correct") {
       incrementScore(CORRECT_BONUS);
-      document.getElementById('correctBox').style.display='block';
+      document.getElementById('correctBox').style.visibility='visible';
     } else{
-      document.getElementById('incorrectBox').style.display='block';
+      document.getElementById('incorrectBox').style.visibility='visible';
     }
 
 
     selectedChoice.parentElement.classList.add(classToApply);
-    document.getElementById('nextQuestion').style.display='block';
+    document.getElementById('nextQuestion').style.visibility='visible';
     
 
     nextQuestion.addEventListener("click", e => {
