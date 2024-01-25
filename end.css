@@ -1,0 +1,87 @@
+.topbox{
+    display: block;
+    position: relative;
+    text-align:center;
+    width: 728px;
+    height: 90px;
+    max-height: 100px;
+    border: 10px;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: aquamarine;
+  }
+
+.sidebox1{
+    height: 100%;
+    width: 10%;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: aquamarine;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidebox2{
+    height: 100%;
+    width: 10%;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    right:0;
+    background-color: aquamarine;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .bottombox{
+    position: center;
+    text-align:center;
+    width: 320px;
+    height: 50px;
+    max-height: 50px;
+    border: 10px;
+    margin-top: 20%;
+    margin:auto;
+    padding: 20px;
+    padding-bottom: 10px;
+    bottom: 0;
+    background-color: aquamarine;
+}
+
+
+
+
+  @media screen and (max-width : 980px){
+    .sidebox1{
+        height: 100%;
+        width: 10%;
+        position:fixed;
+        z-index: 1;
+        top:0;
+        left:0;
+        background-color: aquamarine;
+        overflow-x: hidden;
+        padding-top: 20px;
+        display: none;
+      }
+      
+      .sidebox2{
+        height: 100%;
+        width: 10%;
+        position:fixed;
+        z-index: 1;
+        top:0;
+        right:0;
+        background-color: aquamarine;
+        overflow-x: hidden;
+        padding-top: 20px;
+        display: none;
+      }
+
+
+
+  }

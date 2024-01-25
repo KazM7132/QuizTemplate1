@@ -285,8 +285,9 @@ h1{
 }
 
 .responsive{
-    max-width: 100%;
+    max-width: 1000px;
     height: auto;
+    max-height: 1000px;
 }
 
 .introbox{
